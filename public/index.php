@@ -51,5 +51,5 @@ $kernel = $app->make(Kernel::class);
 $response = $kernel->handle(
     $request = Request::capture()
 )->send();
-
+coba 
 $kernel->terminate($request, $response);
